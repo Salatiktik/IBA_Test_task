@@ -1,0 +1,39 @@
+{
+    "users":[
+        {
+            "firstName":"Daniil",
+            "lastName":"Litvinets",
+            "age":"21",
+            "phone":"+375290000000",
+            "notes":"Love`s to sing"
+        },
+        {
+            "firstName":"Daniil",
+            "lastName":"Kich",
+            "age":"21",
+            "phone":"+375290000010",
+            "notes":"Love`s to sing"
+        },
+        {
+            "firstName":"Anya",
+            "lastName":"Kich",
+            "age":"19",
+            "phone":"+375290000001",
+            "notes":"Professional designer"
+        },
+        {
+            "firstName":"Liza",
+            "lastName":"Furinina",
+            "age":"19",
+            "phone":"+375290000002",
+            "notes":"No information"
+        },
+        {
+            "firstName":"Vladimir",
+            "lastName":"Polinkov",
+            "age":"15",
+            "phone":"+375290000003",
+            "notes":"Too young"
+        }
+    ]
+}
