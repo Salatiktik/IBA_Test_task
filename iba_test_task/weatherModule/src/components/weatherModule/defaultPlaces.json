@@ -1,0 +1,48 @@
+[
+    {
+        "id": 625144,
+        "name": "Minsk",
+        "latitude": 53.9,
+        "longitude": 27.56667,
+        "elevation": 222,
+        "feature_code": "PPLC",
+        "country_code": "BY",
+        "admin1_id": 625143,
+        "timezone": "Europe/Minsk",
+        "population": 1742124,
+        "country_id": 630336,
+        "country": "Belarus",
+        "admin1": "Minsk City"
+    },
+
+    {
+        "id": 524901,
+        "name": "Moscow",
+        "latitude": 55.75222,
+        "longitude": 37.61556,
+        "elevation": 144,
+        "feature_code": "PPLC",
+        "country_code": "RU",
+        "admin1_id": 524894,
+        "timezone": "Europe/Moscow",
+        "population": 10381222,
+        "country_id": 2017370,
+        "country": "Russia",
+        "admin1": "Moscow"
+    },
+    {
+        "id": 498817,
+        "name": "St Petersburg",
+        "latitude": 59.93863,
+        "longitude": 30.31413,
+        "elevation": 11,
+        "feature_code": "PPLA",
+        "country_code": "RU",
+        "admin1_id": 536203,
+        "timezone": "Europe/Moscow",
+        "population": 5028000,
+        "country_id": 2017370,
+        "country": "Russia",
+        "admin1": "St.-Petersburg"
+    }
+]
