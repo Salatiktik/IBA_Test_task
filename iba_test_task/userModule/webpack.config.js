@@ -18,7 +18,7 @@ const plugins = [
         template: './public/index.html',
     }),
     new ModuleFederationPlugin({
-        name: 'provider',
+        name: 'userProvider',
         filename: 'remoteEntry.js',
         exposes: {
           "./UserModule": './src/components/userModule/userModule',
