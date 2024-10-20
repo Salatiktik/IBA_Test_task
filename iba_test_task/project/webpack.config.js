@@ -19,10 +19,15 @@ const plugins = [
     new ModuleFederationPlugin({
         name:'consumer',
         filename:'remoteEntry.js',
-        remotes: {provider:'provider@http://localhost:3001/remoteEntry.js'},
+        remotes: {
+            userProvider:'userProvider@http://localhost:3001/remoteEntry.js',
+            weatherProvider:'weatherProvider@http://localhost:3001/remoteEntry.js',
+        },
         shared: {
             'react': { singleton: true, eager: true , requiredVersion: '^18.3.1'},
-            '@mui/material':{singleton: true, eager: true , requiredVersion: "^6.1.4"}
+            '@mui/material':{singleton: true, eager: true , requiredVersion: "^6.1.4"},
+            '@mui/icons-material':{singleton: true, eager: true , requiredVersion: "^6.1.4"},
+            'openmeteo':{singleton:true, eager: true, requiredVersion: '^1.1.4'}
         },
       }),
   ];
