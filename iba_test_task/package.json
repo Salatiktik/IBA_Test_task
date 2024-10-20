@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all --parallel start:usermodule start:weathermodule start:mainmodule",
-    "start:usermodule": "webpack-dev-server --mode development --config ./project/webpack.config.js",
-    "start:mainmodule": "webpack-dev-server --mode development --config ./userModule/webpack.config.js",
-    "start:weathermodule": "webpack-dev-server --mode development --config ./weatherModule/webpack.config.js",
-    "install:dependences": "cd ./project && npm i && cd ../userModule && npm i && cd ../weatherModule && npm i"
+    "start:usermodule": "cd ./userModule && webpack-dev-server --mode development",
+    "start:mainmodule": "cd ./project && webpack-dev-server --mode development",
+    "start:weathermodule": "cd ./weatherModule && webpack-dev-server --mode development ",
+    "install:dependences": "npm i && cd ./project && npm i && cd ../userModule && npm i && cd ../weatherModule && npm i"
   },
   "keywords": [],
   "author": "",

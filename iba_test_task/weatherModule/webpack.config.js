@@ -46,7 +46,6 @@ module.exports = {
     devServer: {
         hot: true,
         port: 3002,
-        open:true,
     },
     optimization: {
         minimize: false,
